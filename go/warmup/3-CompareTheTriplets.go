@@ -84,8 +84,8 @@ func main() {
 
 	var a, b int64
 	for i := range A {
-		x, _ := strconv.ParseInt(A[i], 10, 64)
-		y, _ := strconv.ParseInt(B[i], 10, 64)
+		x, _ := strconv.Atoi(A[i])
+		y, _ := strconv.Atoi(B[i])
 		if x > y {
 			a++
 		} else if x < y {

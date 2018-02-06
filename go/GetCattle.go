@@ -30,7 +30,7 @@ func GetCattle(n uint) uint {
 	for i = 1; i <= n; i++ {
 		if i >= 4 && i < 15 {
 			count++
-			GetCattle(uint(n - i))
+			GetCattle(n - i)
 		}
 
 		if i == 20 {

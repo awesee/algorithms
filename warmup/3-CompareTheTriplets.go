@@ -54,10 +54,10 @@ package main
 
 import (
 	"bufio"
-	"os"
-	"strings"
 	"fmt"
+	"os"
 	"strconv"
+	"strings"
 )
 
 func main() {
@@ -79,7 +79,7 @@ func main() {
 			break
 		}
 
-		end ++
+		end++
 	}
 
 	var a, b int64

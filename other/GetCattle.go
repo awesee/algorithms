@@ -7,7 +7,7 @@
 
 */
 
-package main
+package other
 
 func main() {
 

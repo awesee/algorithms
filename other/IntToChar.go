@@ -21,15 +21,6 @@ import (
 	"math"
 )
 
-func main() {
-
-	println(IntToChar(0))
-	println(IntToChar(1))
-	println(IntToChar(25))
-	println(IntToChar(26))
-	println(IntToChar(27))
-}
-
 func IntToChar(num uint) (char string) {
 
 	if quotient := math.Floor(float64(num / 26)); quotient > 0 {

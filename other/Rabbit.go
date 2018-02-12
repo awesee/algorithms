@@ -10,15 +10,6 @@
 
 package other
 
-func main() {
-
-	println(Rabbit(3)) // 2
-
-	println(Rabbit(10)) // 55
-
-	println(Rabbit(20)) // 6765
-}
-
 func Rabbit(n uint) uint {
 
 	if n <= 2 {

@@ -9,19 +9,6 @@
 
 package other
 
-func main() {
-
-	println(GetCattle(3)) // 1
-
-	println(GetCattle(4)) // 2
-
-	println(GetCattle(10)) // 15
-
-	println(GetCattle(20)) // 346
-
-	println(GetCattle(30)) // 8317
-}
-
 var count uint = 1
 
 func GetCattle(n uint) uint {

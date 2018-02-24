@@ -9,11 +9,9 @@ Your algorithm should have a linear runtime complexity. Could you implement it w
 
 func SingleNumber(nums []int) int {
 
-	n := nums[0]
-	for i, v := range nums {
-		if i > 0 {
-			n ^= v
-		}
+	n := 0
+	for _, v := range nums {
+		n ^= v
 	}
 
 	return n

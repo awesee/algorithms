@@ -17,7 +17,7 @@ What if elements of nums2 are stored on disk, and the memory is limited such tha
 
 func IntersectTwoArrays(nums1 []int, nums2 []int) []int {
 
-	res := make([]int, 0)
+	res := make([]int, 0, len(nums1))
 	nc := make(map[int]int)
 
 	for _, n := range nums1 {

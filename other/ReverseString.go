@@ -1,5 +1,12 @@
 package other
 
+/*
+Write a function that takes a string as input and returns the string reversed.
+
+Example:
+Given s = "hello", return "olleh".
+*/
+
 func ReverseString(s string) string {
 
 	runes := []rune(s)

@@ -67,8 +67,7 @@ func MyAtoi(str string) int {
 	r, _ := strconv.Atoi(prefix + str)
 	if r < -1<<31 {
 		r = -1 << 31
-	}
-	if r > 1<<31-1 {
+	} else if r > 1<<31-1 {
 		r = 1<<31 - 1
 	}
 

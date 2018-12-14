@@ -16,12 +16,12 @@ package other
 func TwoSum(nums []int, target int) []int {
 
 	m := make(map[int]int)
-	for i, x := range nums {
-		if v, ok := m[target-x]; ok {
-			return []int{v, i}
+	for j, v := range nums {
+		if i, ok := m[target-v]; ok {
+			return []int{i, j}
 		}
-		m[x] = i
+		m[v] = j
 	}
 
-	return []int{}
+	return nil
 }
